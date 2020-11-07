@@ -10,11 +10,11 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   
-  pinMode(btn1, INPUT);
-  pinMode(btn2, INPUT);
-  pinMode(btn3, INPUT);
-  pinMode(btn4, INPUT);
-  pinMode(btn5, INPUT);
+  pinMode(btn1, INPUT_PULLUP);
+  pinMode(btn2, INPUT_PULLUP);
+  pinMode(btn3, INPUT_PULLUP);
+  pinMode(btn4, INPUT_PULLUP);
+  pinMode(btn5, INPUT_PULLUP);
 }
 
 void loop() {
@@ -25,22 +25,22 @@ void loop() {
   stat4 = digitalRead(btn4);
   stat5 = digitalRead(btn5);
 
-  lastStat1 =+ stat1;
-  lastStat2 =+ stat2;
-  lastStat3 =+ stat3;
-  lastStat4 =+ stat4;
-  lastStat5 =+ stat5;
-
-  if(stat1 || stat2 || stat3 || stat4 || stat5){
+  if(!stat1 || !stat2 || !stat3 || !stat4 || !stat5){
     Serial.print("A = ");
+    lastStat1 += !stat1;
     Serial.print(lastStat1);
     Serial.print(" B = ");
+    lastStat2 += !stat2;
     Serial.print(lastStat2);
     Serial.print(" C = ");
+    lastStat3 += !stat3;
     Serial.print(lastStat3);
     Serial.print(" D = ");
+    lastStat4 += !stat4;
     Serial.print(lastStat4);
     Serial.print(" E = ");
+    lastStat5 += !stat5;
     Serial.println(lastStat5);
+    delay(400);
   }
 }
