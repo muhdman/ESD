@@ -10,11 +10,6 @@ void setup() {
   pinMode(led1, OUTPUT);
   pinMode(led2, OUTPUT);
 
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
-  status1 = true;
-  status2 = true;
-
   lastMillis1 = millis();
   lastMillis2 = millis();
 }
@@ -24,7 +19,7 @@ void loop() {
   
   if(status1){
     // LED 1 will turn ON for 750 ms
-    if(millis - lastMillis1 >= 750){
+    if(millis() - lastMillis1 >= 750){
       digitalWrite(led1, LOW);
       lastMillis1 = millis();
       status1 = false;
@@ -32,7 +27,7 @@ void loop() {
   }
   //LED 1 will turn OFF for 350 ms
   else{
-    if(millis - lastMillis1 >= 350){
+    if(millis() - lastMillis1 >= 350){
       digitalWrite(led1, HIGH);
       lastMillis1 = millis();
       status1 = true;
@@ -41,7 +36,7 @@ void loop() {
 
   if(status2){
     //LED 2 will turn ON for 400 ms
-    if(millis - lastMillis2 >= 400){
+    if(millis() - lastMillis2 >= 400){
       digitalWrite(led2, LOW);
       lastMillis2 = millis();
       status2 = false;
@@ -49,7 +44,7 @@ void loop() {
   }
   //LED 2 will turn OFF for 600 ms
   else{
-    if(millis - lastMillis2 >= 600){
+    if(millis() - lastMillis2 >= 600){
       digitalWrite(led2, HIGH);
       lastMillis2 = millis();
       status2 = true;
