@@ -14,14 +14,12 @@ class ledControl {
 
   void blinking(){
     if(state){
-    // LED 1 will turn ON for 750 ms
       if(millis() - lastMillis >= ON){
         digitalWrite(PIN, LOW);
         lastMillis = millis();
         state = false;
       }
     }
-    //LED 1 will turn OFF for 350 ms
     else{
       if(millis() - lastMillis >= OFF){
         digitalWrite(PIN, HIGH);
