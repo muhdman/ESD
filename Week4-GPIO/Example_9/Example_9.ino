@@ -1,10 +1,11 @@
 class ledControl {
-  public:
+  private:
   bool state;
   unsigned long lastMillis;
   int PIN;
   long timerON, timerOFF;
-
+  
+  public:
   void init(int pin, long on, long off){
     PIN = pin;
     timerON = on;
@@ -14,19 +15,17 @@ class ledControl {
   }
 
   void blinking(){
-    if(state){
-      if(millis() - lastMillis >= timerON){
-        digitalWrite(PIN, LOW);
-        lastMillis = millis();
-        state = false;
-      }
-    }
-    else{
-      if(millis() - lastMillis >= timerOFF){
-        digitalWrite(PIN, HIGH);
-        lastMillis = millis();
-        state = true;
-      }
+    if(state)
+    switching(timerON);
+    else
+    switching(timerOFF);
+  }
+
+  void switching(long timer){
+    if(millis() - lastMillis >= timer){
+      digitalWrite(PIN, !state);
+      lastMillis = millis();
+      state = !state;
     }
   }
 };
