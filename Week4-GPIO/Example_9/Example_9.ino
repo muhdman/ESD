@@ -6,10 +6,13 @@ class ledControl {
   public:
   ledControl(int pin, long on, long off){
     PIN = pin;
-    pinMode(pin, OUTPUT);
     ON = on;
     OFF = off;
     lastMillis = millis();
+  }
+
+  void init(){
+    pinMode(PIN, OUTPUT);
   }
 
   void blinking(){
