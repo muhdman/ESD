@@ -1,2 +1,2 @@
-# ESD
+# MCTE 4342 - EMBEDDED SYSTEM DESIGN
 Embedded System Design
