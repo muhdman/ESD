@@ -1,30 +1,28 @@
 class ledControl {
+  public:
   bool state;
   unsigned long lastMillis;
-  int ON, OFF, PIN;
-  
-  public:
-  ledControl(int pin, long on, long off){
-    PIN = pin;
-    ON = on;
-    OFF = off;
-    lastMillis = millis();
-  }
+  int PIN;
+  long timerON, timerOFF;
 
-  void init(){
+  void init(int pin, long on, long off){
+    PIN = pin;
+    timerON = on;
+    timerOFF = off;
+    lastMillis = millis();
     pinMode(PIN, OUTPUT);
   }
 
   void blinking(){
     if(state){
-      if(millis() - lastMillis >= ON){
+      if(millis() - lastMillis >= timerON){
         digitalWrite(PIN, LOW);
         lastMillis = millis();
         state = false;
       }
     }
     else{
-      if(millis() - lastMillis >= OFF){
+      if(millis() - lastMillis >= timerOFF){
         digitalWrite(PIN, HIGH);
         lastMillis = millis();
         state = true;
@@ -33,18 +31,18 @@ class ledControl {
   }
 };
 
-ledControl LED1(3, 781, 515);
-ledControl LED2(4, 2014, 1348);
-ledControl LED3(5, 343, 573);
-ledControl LED4(6, 678, 1839);
-ledControl LED5(7, 342, 534);
-ledControl LED6(8, 1478, 326);
-ledControl LED7(9, 1859, 351);
-ledControl LED8(10, 777, 888);
-
+ledControl LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  LED1.init(3, 781, 515);
+  LED2.init(4, 2014, 1348);
+  LED3.init(5, 343, 573);
+  LED4.init(6, 678, 1839);
+  LED5.init(7, 342, 534);
+  LED6.init(8, 1478, 326);
+  LED7.init(9, 1859, 351);
+  LED8.init(10, 777, 888);
 }
 
 void loop() {
