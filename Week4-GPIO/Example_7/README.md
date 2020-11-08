@@ -22,7 +22,7 @@
 <details>
   <summary>Details</summary>
   
-  ![](/Images/EDS-GPIO_E7.png)
+  ![](/Images/EDS-GPIO_E7.png) ![](/Images/IMG_20201108_124849.jpg)
 </details>
 
 ## Step 3 - Arduino Programming
