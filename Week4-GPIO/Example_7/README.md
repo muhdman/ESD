@@ -17,7 +17,7 @@
   5. Jumpers
 </details>
 
-[Simulation](https://www.tinkercad.com/things/k9zOxMfowSv-eds-gpioe7)
+[Simulation](https://www.tinkercad.com/things/k9zOxMfowSv-esd-gpioe7)
 
 ## Step 2 - Video
 
@@ -28,7 +28,7 @@
 <details>
   <summary>Details</summary>
   
-  <img src="/Images/EDS-GPIO_E7.png" height="500">  <img src="/Images/IMG_20201108_124849.jpg" height="500">
+  <img src="/Images/ESD-GPIO_E7.png" height="500">  <img src="/Images/IMG_20201108_124849.jpg" height="500">
 </details>
 
 ## Step 4 - Arduino Programming
