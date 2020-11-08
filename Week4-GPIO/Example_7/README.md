@@ -19,12 +19,12 @@
 
 ## Step 2 - Wiring the Circuit
 
-<img src="/Images/EDS-GPIO_E7.png" width="100">
-
 <details>
   <summary>Details</summary>
   
-  ![](/Images/EDS-GPIO_E7.png) ![](/Images/IMG_20201108_124849.jpg)
+  <img src="/Images/EDS-GPIO_E7.png" width="250">
+  ![](/Images/EDS-GPIO_E7.png) 
+  ![](/Images/IMG_20201108_124849.jpg)
 </details>
 
 ## Step 3 - Arduino Programming
