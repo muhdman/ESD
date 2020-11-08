@@ -1,7 +1,9 @@
 ### EXAMPLE 7
 
 <details>
-  <summary>**List of components**</summary>
+  <summary>
+  **List of components**
+  </summary>
   
   1. Arduino
   2. Two LEDs
