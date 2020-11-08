@@ -1,9 +1,10 @@
 # EXAMPLE 7
 
 <details>
-  ##<summary>
-  List of components
+  <summary>
+    List of components
   </summary>
+  
   
   1. Arduino
   2. Two LEDs
@@ -11,3 +12,21 @@
   4. Breadboard
   5. Jumpers
 </details>
+
+## Step 1 - Video
+
+[]()
+
+## Step 2 - Wiring the Circuit
+
+<details>
+  <summary>Details</summary>
+  
+  ![](/Images/EDS-GPIO_E7.png)
+</details>
+
+## Step 3 - Arduino Programming
+
+[Code](https://github.com/muhdman/MCTE4342-ESD/edit/main/Week4-GPIO/Example_7/Example_7.ino)
+
+## Step 4 - Conclusion
