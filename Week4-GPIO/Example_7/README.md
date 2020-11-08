@@ -19,6 +19,8 @@
 
 ## Step 2 - Wiring the Circuit
 
+<img src="/Images/EDS-GPIO_E7.png" width="100">
+
 <details>
   <summary>Details</summary>
   
