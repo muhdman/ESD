@@ -1,8 +1,8 @@
-### EXAMPLE 7
+# EXAMPLE 7
 
 <details>
   <summary>
-  **List of components**
+  ## List of components
   </summary>
   
   1. Arduino
