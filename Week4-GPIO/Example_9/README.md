@@ -2,7 +2,7 @@
 
 ## Step 1 - Introduction
 
-- 
+- The purpose of this example is to blink eight different LEDs at different phase. Each of the LED will have different timer for turning ON and turning OFF.
 
 <details>
   <summary>
@@ -28,7 +28,7 @@
 <details>
   <summary>Details</summary>
   
-  <img src="/Images/ESD-GPIO_E8.png" height="500">  <img src="/Images/IMG_20201108_124849.jpg" height="500">
+  <img src="/Images/ESD-GPIO_E8.png" height="360">  <img src="/Images/IMG_20201108_220932.jpg" height="360">
 </details>
 
 ## Step 4 - Arduino Programming
