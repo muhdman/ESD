@@ -1,4 +1,4 @@
-# EXAMPLE 7
+# EXAMPLE 8
 
 ## Step 1 - Introduction
 
@@ -27,7 +27,7 @@
 <details>
   <summary>Details</summary>
   
-  <img src="/Images/EDS-GPIO_E8.png" height="500">  <img src="/Images/IMG_20201108_124849.jpg" height="500">
+  <img src="/Images/ESD-GPIO_E8.png" height="500">  <img src="/Images/IMG_20201108_124849.jpg" height="500">
 </details>
 
 ## Step 4 - Arduino Programming
