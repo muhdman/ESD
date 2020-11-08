@@ -2,7 +2,7 @@
 
 ## Step 1 - Introduction
 
-- 
+- The objective of this example is to create counter for each button that has been pressed. The counter will be shown at Serial Monitor.
 
 <details>
   <summary>
@@ -27,7 +27,7 @@
 <details>
   <summary>Details</summary>
   
-  <img src="/Images/ESD-GPIO_E8.png" height="500">  <img src="/Images/IMG_20201108_124849.jpg" height="500">
+  <img src="/Images/ESD-GPIO_E8.png" height="470">  <img src="/Images/IMG_20201108_203223.jpg" height="470">
 </details>
 
 ## Step 4 - Arduino Programming
