@@ -2,7 +2,6 @@
 
 <details>
   <summary>
-    
     **List of components**
   </summary>
   
