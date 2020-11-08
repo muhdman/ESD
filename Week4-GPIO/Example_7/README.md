@@ -1,5 +1,9 @@
 # EXAMPLE 7
 
+## Step 1 - Introduction
+
+- The objective of this example is to blink two LEDs at different phase. The first LED will turn ON for 750 ms and turn OFF for 350 ms. The second LED will turn ON for 400 ms and turn OFF for 600 ms.
+
 <details>
   <summary>
     List of components
@@ -13,11 +17,13 @@
   5. Jumpers
 </details>
 
-## Step 1 - Video
+[Simulation](https://www.tinkercad.com/things/k9zOxMfowSv-eds-gpioe7)
+
+## Step 2 - Video
 
 []()
 
-## Step 2 - Wiring the Circuit
+## Step 3 - Wiring the Circuit
 
 <details>
   <summary>Details</summary>
@@ -25,8 +31,6 @@
   <img src="/Images/EDS-GPIO_E7.png" height="500">  <img src="/Images/IMG_20201108_124849.jpg" height="500">
 </details>
 
-## Step 3 - Arduino Programming
+## Step 4 - Arduino Programming
 
 [Code](https://github.com/muhdman/MCTE4342-ESD/edit/main/Week4-GPIO/Example_7/Example_7.ino)
-
-## Step 4 - Conclusion
