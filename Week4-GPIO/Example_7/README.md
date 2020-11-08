@@ -1,7 +1,7 @@
 # EXAMPLE 7
 
 <details>
-  ##<summary>
+  ## <summary>
   List of components
   </summary>
   
