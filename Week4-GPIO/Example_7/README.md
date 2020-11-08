@@ -22,7 +22,7 @@
 <details>
   <summary>Details</summary>
   
-  <img src="/Images/EDS-GPIO_E7.png" width="250">
+  <img src="/Images/EDS-GPIO_E7.png" height="280">  <img src="/Images/IMG_20201108_124849.jpg" height="280">
   ![](/Images/EDS-GPIO_E7.png) 
   ![](/Images/IMG_20201108_124849.jpg)
 </details>
