@@ -28,7 +28,7 @@
 <details>
   <summary>Details</summary>
   
-  '#define led1 6
+  `#define led1 6
   #define led2 7
   
   unsigned long lastMillis1, lastMillis2;
@@ -80,7 +80,7 @@
         status2 = true;
       }
     }
-  }'
+  }`
 </details>
 
 ## Step 4 - Conclusion
