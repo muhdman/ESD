@@ -21,7 +21,7 @@
 
 ## Step 2 - Video
 
-[]()
+[![Example 9](https://i9.ytimg.com/vi/__eZqXtDprA/mq2.jpg?sqp=CIDuo_0F&rs=AOn4CLCANNEz5ssQgmj3wilQnAzdydv46w&retry=4)](https://youtu.be/__eZqXtDprA)
 
 ## Step 3 - Wiring the Circuit
 
