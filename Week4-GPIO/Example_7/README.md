@@ -21,7 +21,7 @@
 
 ## Step 2 - Video
 
-[![Example 7](https://i9.ytimg.com/vi/CdAZZwLEciM/mq2.jpg?sqp=CJCpov0F&rs=AOn4CLDfNTnQIycFtJKfqYuiGfpJCvmcUQ&retry=4)](https://youtu.be/CdAZZwLEciM)
+[![Example 7](https://i9.ytimg.com/vi/CdAZZwLEciM/mq2.jpg?sqp=CKzwo_0F&rs=AOn4CLAygs4mejoOchonA97up31IH5EBTw)](https://youtu.be/CdAZZwLEciM)
 
 ## Step 3 - Wiring the Circuit
 
