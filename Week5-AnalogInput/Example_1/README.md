@@ -27,7 +27,7 @@
 <details>
   <summary>Details</summary>
   
-  <img src="/Images/ESD-AnalogInput_E1E2E3.png" height="500">  <img src="/Images/IMG_20201116_140850.jpg" height="500">
+  <img src="/Images/ESD-AnalogInput_E1E2E3.png" width="460">  <img src="/Images/IMG_20201116_140850.jpg" width="460">
 </details>
 
 ## Step 4 - Arduino Programming
