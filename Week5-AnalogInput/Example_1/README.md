@@ -1,4 +1,4 @@
-# EXAMPLE 7
+# EXAMPLE 1
 
 ## Step 1 - Introduction
 
@@ -20,7 +20,7 @@
 
 ## Step 2 - Video
 
-[![Example 7]()]()
+[![Example 1]()]()
 
 ## Step 3 - Wiring the Circuit
 
