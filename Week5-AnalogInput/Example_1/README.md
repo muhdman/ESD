@@ -2,7 +2,7 @@
 
 ## Step 1 - Introduction
 
-- 
+- The purpose of this example is to read the analog input from the sensor / potentiometer and display it to serial monitor.
 
 <details>
   <summary>
