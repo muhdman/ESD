@@ -2,7 +2,11 @@
 
 ## Step 1 - Introduction
 
-- 
+- The objective of this example is to read analog signal in **on-demand mode** by using AVR language.
+- Requirements:-
+  - Clock speed microcontroller -> 16MHz
+  - Clock speed ADC -> 125MHz
+  - AVCC as reference.
 
 <details>
   <summary>
@@ -33,3 +37,7 @@
 ## Step 4 - Arduino Programming
 
 [Code](https://github.com/muhdman/MCTE4342-ESD/edit/main/Week5-AnalogInput/Example_2/Example_2.ino)
+
+## Step 5 - Conclusion
+
+- On-demand mode can only read the signal once per activation only. In order to read the signal again, the microcontroller needed to be reset or restart.
