@@ -32,4 +32,4 @@
 
 ## Step 4 - Arduino Programming
 
-[Code](https://github.com/muhdman/MCTE4342-ESD/edit/main/Week6-TimerPorts/Example_1/Example_1.ino)
+[Code](https://github.com/muhdman/MCTE4342-ESD/blob/main/Week6-TimerPorts/Example_1/Example_1.ino)
