@@ -2,10 +2,10 @@
 #define btn 2
 
 int state;
-int Bstate = 1;
-long unsigned int temp;
+bool Bstate = true;
+long unsigned int lastMillis;
 volatile int btnFlag;
-int debounceTime = 20;
+int setDelay = 20;
 
 void setup() {
   // setup pin modes
@@ -15,19 +15,19 @@ void setup() {
 }
 
 void loop() {
-  if((millis() - temp) > debounceTime && btnFlag)
+  if((millis() - lastMillis) > setDelay && btnFlag)
   {
-    temp = millis();                                                   
-    if(digitalRead(btn) == 0 && Bstate == 1)
+    lastMillis = millis();                                                   
+    if(digitalRead(btn) == 0 && Bstate == true)
     {
       state =! state;
       digitalWrite(led, state);
-      Bstate = 0;
+      Bstate = false;
     }
     
-    else if(digitalRead(btn) == 1 && Bstate == 0)
+    if(digitalRead(btn) == 1 && Bstate == false)
     {
-      Bstate = 1;
+      Bstate = true;
     }
     btnFlag = 0;
   }
