@@ -33,4 +33,4 @@
 
 ## Step 4 - Arduino Programming
 
-[Code](https://github.com/muhdman/MCTE4342-ESD/edit/main/Week4-GPIO/Example_9/Example_9.ino)
+[Code](https://github.com/muhdman/MCTE4342-ESD/blob/main/Week4-GPIO/Example_9/Example_9.ino)
