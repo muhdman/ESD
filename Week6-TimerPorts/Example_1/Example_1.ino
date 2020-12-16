@@ -1,6 +1,7 @@
-#define led 4
+#define led 9
 
-int inByte = 0;
+char inByte;
+unsigned int integerValue;
 int state;
 
 void setup() {
@@ -12,9 +13,17 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   if (Serial.available() > 0){
-    inByte = Serial.read();
+    integerValue = 0;
+    while(1){
+      inByte = Serial.read();
+      if(inByte == '\n') break;
+      if(inByte == -1) continue;
+      integerValue *= 10;
+      integerValue = ((inByte - 48) + integerValue);
+    }
   }
 
-  state = map(inByte, 0, 100, 0, 255);
-  analogWrite(led, state); 
+  state = map(integerValue, 0, 100, 0, 255);
+  analogWrite(led, state);
+  Serial.println(state);
 }
