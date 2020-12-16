@@ -25,7 +25,7 @@ void loop() {
       Bstate = false;
     }
     
-    if(digitalRead(btn) == 1 && Bstate == false)
+    else if(digitalRead(btn) == 1 && Bstate == false)
     {
       Bstate = true;
     }
