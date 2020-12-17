@@ -2,7 +2,7 @@
 
 ## Step 1 - Introduction
 
-- 
+- In this experiment, we will try to control the brightness of the LED by using Pulse Width Modulation (PWM).
 
 <details>
   <summary>
@@ -27,7 +27,7 @@
 <details>
   <summary>Details</summary>
   
-  <img src="/Images/ESD-AnalogInput_E1E2E3.png" width="470">  <img src="/Images/IMG_20201116_140850.jpg" width="470">
+  <img src="/Images/ESD-TimerPorts_E1.jpg" width="470">  <img src="/Images/IMG_20201217_023015.jpg" width="470">
 </details>
 
 ## Step 4 - Arduino Programming
