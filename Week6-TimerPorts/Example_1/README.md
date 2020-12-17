@@ -16,7 +16,7 @@
   4. Jumpers
 </details>
 
-[Simulation](https://www.tinkercad.com/things/guojp5Se8jg-esd-timerportse1)
+<!--[Simulation](https://www.tinkercad.com/things/guojp5Se8jg-esd-timerportse1)-->
 
 ## Step 2 - Video
 
